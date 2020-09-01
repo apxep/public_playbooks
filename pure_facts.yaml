@@ -4,7 +4,7 @@
 #export PUREFB_URL=<flashblade_api_token>
 #ansible-playbook -i "localhost," -e subset=config this_playbook.yml
 ---
-- name: simple fact gather and output from Pure FlashArray module
+- name: simple fact gather and output from Pure modules
   gather_facts: no
   become: no
   hosts: localhost
